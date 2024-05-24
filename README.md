@@ -28,4 +28,22 @@ Overall, the code demonstrates how to use regular expressions to manipulate stri
 
 
 Main 2:
+This Java code demonstrates several operations:
+
+1. Multi-Line String Manipulation:
+   - The `paragraph` variable contains a multi-line string representing a passage of text.
+
+2. Regular Expression Matching:
+   - The `doesItMatches` method takes a regular expression and a string as input.
+   - It checks if the given string matches the specified regular expression pattern.
+   - Several example regular expressions and strings are provided, and the method is called to test them.
+
+3. Utility Method for String Formatting:
+   - The `formatString` method is defined to format a string by replacing occurrences of `%s` with corresponding values.
+   - It iteratively replaces `%s` with strings from the `doubleStrings` array until all occurrences are replaced.
+
+4. Example Regular Expressions:
+   - Example regular expressions are tested using the `doesItMatches` method to determine if they match certain strings.
+
+Overall, the code demonstrates how to use regular expressions to match patterns in strings and provides a utility method for string formatting.
 
